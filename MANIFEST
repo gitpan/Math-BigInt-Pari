@@ -10,11 +10,10 @@ inc/Module/Install/WriteAll.pm
 lib/Math/BigInt/Pari.pm
 LICENSE
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 MANIFEST.SKIP
-META.yml			Module meta-data (added by MakeMaker)
+META.yml
 README
-SIGNATURE
 t/bigfltpm.inc
 t/bigfltpm.t
 t/bigintpari.t
@@ -24,3 +23,4 @@ t/biglog.t
 t/bigroot.t
 t/pod.t
 t/pod_cov.t
+SIGNATURE                                Public-key signature (added by MakeMaker)
