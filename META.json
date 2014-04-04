@@ -4,7 +4,7 @@
       "Original Math::BigInt::Pari written by Benjamin Trott 2001, L<ben@rhumba.pair.com>., Benjamin Trott <ben@rhumba.pair.com>, Tels <nospam-abuse@bloodgate.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.59, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "ExtUtils::MakeMaker version 6.94, CPAN::Meta::Converter version 2.140640",
    "license" : [
       "perl_5"
    ],
@@ -22,22 +22,23 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.42",
+            "ExtUtils::MakeMaker" : "6.59",
             "Test::More" : "0.62"
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "runtime" : {
          "requires" : {
-            "Math::BigInt" : "1.997",
-            "Math::Pari" : "2.010709"
+            "Math::BigInt" : "1.9993",
+            "Math::Pari" : "2.010709",
+            "perl" : "5.006002"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "1.17"
+   "version" : "1.18"
 }
